@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Suzukitakeko&amp;label=Views&amp;color=C2343F&amp;style=flat" height="20" alt="Profile views">
+  <img src="https://komarev.com/ghpvc/?username=Suzukitakeko&amp;label=Views&amp;color=C2343F&amp;style=flat&amp;base=200" height="20" alt="Profile views">
   &nbsp;
   <a href="https://scholar.google.com/citations?user=xsVSSlkAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-555555?style=flat&amp;logo=googlescholar&amp;logoColor=white" height="20" alt="Google Scholar"></a>
 </p>
