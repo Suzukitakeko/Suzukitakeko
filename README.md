@@ -14,6 +14,12 @@
 </p>
 
 <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Suzukitakeko&amp;label=Views&amp;color=C2343F&amp;style=flat" height="20" alt="Profile views">
+  &nbsp;
+  <a href="https://scholar.google.com/citations?user=xsVSSlkAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-555555?style=flat&amp;logo=googlescholar&amp;logoColor=white" height="20" alt="Google Scholar"></a>
+</p>
+
+<p align="center">
   <br>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/triptych-dark.svg">
@@ -50,5 +56,5 @@
 </p>
 
 <p align="center">
-  <sub>Every plate on this page is an SVG drawn by <a href="scripts/build.mjs">one small script</a> — no screenshots, no third-party widgets.<br>Fig. 2 and the list above are recomputed from my public stars and pull requests once a day.</sub>
+  <sub>Every plate on this page is an SVG drawn by <a href="scripts/build.mjs">one small script</a>; the two badges up top are the only outside pieces.<br>Fig. 2 and the list above are recomputed from my public stars and pull requests once a day.</sub>
 </p>
