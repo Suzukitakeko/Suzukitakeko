@@ -54,5 +54,5 @@
 </p>
 
 <p align="center">
-  <sub>Every plate on this page is an SVG drawn by <a href="scripts/build.mjs">one small script</a> — no screenshots, no third-party widgets.<br>Fig. 2 and the list above are computed from my public stars and pull requests.</sub>
+  <sub>Every plate on this page is an SVG drawn by <a href="scripts/build.mjs">one small script</a> — no screenshots, no third-party widgets.<br>Fig. 2 and the list above are recomputed from my public stars and pull requests once a day.</sub>
 </p>
