@@ -8,13 +8,9 @@
 
 <p align="center">
   <br>
-  I care about making multimodal models cheaper to run —<br>
-  pruning the visual tokens nobody attends to, squeezing the KV cache, rounding weights to fewer bits —<br>
-  and about the agents that get built on top of them.
-</p>
-
-<p align="center">
-  <sub>让多模态大模型跑得更省：剪掉没人看的视觉 token，压缩 KV cache，把权重舍入到更少的比特。</sub>
+  My research is devoted to Efficient AI—<br>
+  carving lightness into the training and inference of foundation models,<br>
+  so vast intelligence may travel swiftly, leaving none of its brilliance behind.
 </p>
 
 <p align="center">
@@ -22,7 +18,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/triptych-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/triptych-light.svg">
-    <img src="assets/triptych-dark.svg" width="100%" alt="Figure 1, in three panels. A, fewer tokens: an image of 576 visual tokens pruned to 192, 128 and 64. B, fewer bits: a signal rounded to 4, 3, 2 and 1 bits. C, same meaning: a model card — based in Shanghai; attends to efficient multimodal LLMs, token pruning, KV cache, quantization, fast inference, and agents.">
+    <img src="assets/triptych-dark.svg" width="100%" alt="Figure 1, in three panels. A, fewer tokens: an image of 576 visual tokens pruned to 192, 128 and 64. B, fewer bits: a signal rounded to 4, 3, 2 and 1 bits. C, same meaning: a model card — based in Shanghai; research: Efficient AI, the training and inference of foundation models; attends to token pruning, KV cache, quantization and fast inference.">
   </picture>
 </p>
 
