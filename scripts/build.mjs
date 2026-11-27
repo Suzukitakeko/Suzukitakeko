@@ -304,22 +304,24 @@ ${readB}
     ['name', [LOGIN]],
     ['base', ['Shanghai · UTC+8']],
     ['context', [`${meta.stars} starred repos`]],
-    ['attends to', ['efficient multimodal LLMs', 'token pruning · KV cache', 'quantization · fast inference', 'agents & their harnesses']],
+    ['research', ['Efficient AI']],
+    ['scope', ['training & inference', 'of foundation models']],
+    ['attends to', ['token pruning · KV cache', 'quantization · fast inference']],
     ['objective', ['min tokens, bits', 's.t. meaning ≈ const']],
     ['license', ['curiosity']],
   ];
   let y = top + 14, card = '';
   for (const [k, lines] of rows) {
     card += `<text x="${CX}" y="${y}" class="d">${esc(k)}</text>`;
-    for (const ln of lines) { card += `<text x="${VX}" y="${y}" class="i" style="letter-spacing:.02em">${esc(ln)}</text>`; y += 25; }
-    y += 9;
+    for (const ln of lines) { card += `<text x="${VX}" y="${y}" class="i" style="letter-spacing:.02em">${esc(ln)}</text>`; y += 24; }
+    y += 8;
   }
   body += `<text x="${CX}" y="58"><tspan class="r">C</tspan> <tspan class="d">·</tspan> <tspan class="i">SAME MEANING</tspan></text>
 <text x="${W - 48}" y="58" text-anchor="end" class="d">CARD v${meta.version}</text>
 ${card}`;
 
   const defs = `<pattern id="dotsA" width="${P}" height="${P}" patternUnits="userSpaceOnUse" x="${AX}" y="${top}"><rect x="${P / 2 - 1}" y="${P / 2 - 1}" width="2" height="2" fill="${T.ink}" opacity="${T.dot * 1.4}"/></pattern>`;
-  return frame(T, W, H, body, `Figure 1. Three panels. A: an image of 576 visual tokens pruned to 192, 128 and 64. B: a signal rounded to 4, 3, 2 and 1 bits. C: a model card — ${LOGIN}, Shanghai; attends to efficient multimodal LLMs, token pruning, KV cache, quantization, fast inference, and agents.`, defs, css);
+  return frame(T, W, H, body, `Figure 1. Three panels. A: an image of 576 visual tokens pruned to 192, 128 and 64. B: a signal rounded to 4, 3, 2 and 1 bits. C: a model card — ${LOGIN}, Shanghai; research: Efficient AI, the training and inference of foundation models; attends to token pruning, KV cache, quantization and fast inference.`, defs, css);
 }
 
 // ───────────────────────── fig. 2 · attention over stars ─────────────────────────
